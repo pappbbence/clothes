@@ -18,15 +18,10 @@
 	</properties>
 	<distributionManagement>
 		<repository>
-			<id>nexus</id>
-			<name>Releases</name>
-			<url>http://localhost:8084/repository/clothesRelease</url>
+			<id>github</id>
+			<name>Github Package</name>
+			<url>http://maven.pkg.github.com/pappbbence/clothes</url>
 		</repository>
-		<snapshotRepository>
-			<id>nexus</id>
-			<name>Snapshot</name>
-			<url>http://localhost:8083/repository/clothesDeature</url>
-		</snapshotRepository>
 	</distributionManagement>
 	<dependencies>
 		<dependency>
